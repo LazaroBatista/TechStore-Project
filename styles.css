@@ -193,3 +193,28 @@ footer {
 .botao-produto:hover {
     background-color: rgb(72, 134, 185);
 }
+
+@media (max-width: 400px) {
+    header {
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    .container-busca {
+        margin: 0;
+        max-width: none;
+    }
+
+    .container-categorias nav {
+        flex-wrap: wrap;
+        padding: 8px 16px;
+    }
+
+    .secao-hero {
+        padding: 32px 16px;
+    }
+
+    .produtos {
+        padding: 16px;
+    }
+}
